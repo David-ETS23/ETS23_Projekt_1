@@ -6,7 +6,7 @@ import neopixel
 #######################################
 Co2_i2c = SoftI2C(scl=Pin(5), sda=Pin(4))
 
-Co2_Sensor = CCS811.CCS811(i2c=i2c, addr=90)		#Sensorvariable
+Co2_Sensor = CCS811.CCS811(i2c=i2c, addr=90)		
 
 led_ring = neopixel.NeoPixel(Pin(6), 12)
 
